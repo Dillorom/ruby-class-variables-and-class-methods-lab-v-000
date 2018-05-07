@@ -15,7 +15,7 @@ class Song
   end
 
   def self.artists
-    @@artists
+    @@artists.uniq
 
     #@@artists << artists if artists != self
   end
