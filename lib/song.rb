@@ -16,7 +16,8 @@ class Song
 
   def self.artists
     @@artists
-    @@artists << artists if artists != self
+
+    #@@artists << artists if artists != self
   end
 
 
@@ -26,7 +27,7 @@ class Song
   end
 
   def self.genre_count
-      @@genres << genres if genres != self
+    #@@genres << genres if genres != self
     end
 end
 
