@@ -31,12 +31,12 @@ class Song
     @@genres.each do |genre|
       if !@@genre_count.key?(genre)
         @@genre_count.value = 1
-      elsif 
+      elsif
         @@genre_count.key?(genre)
         @@genre_count.value+=1
       end
     end
-    @@genre_count  
+    @@genre_count
   end
 
 end
