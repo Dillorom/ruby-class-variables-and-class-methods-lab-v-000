@@ -1,4 +1,5 @@
 class Song
+  
   attr_accessor :name, :artist, :genre
   @@count = 0
   @@artists = []
@@ -18,7 +19,6 @@ class Song
 
   def artists
     @@artists.uniq
-    #@@artists << artists if artists != self
   end
 
 
@@ -27,22 +27,8 @@ class Song
   end
 
   def self.genre_count
-    #@@genres << genres if genres != self
-    end
+  end
+  
 end
 
-class Artist
-  attr_accessor :name,
-  def initialize(name)
-    @name = name
-    @songs = []
-  end
-end
 
-class Genre
-  attr_accessor :genre
-  def initialize(genre)
-    @genre = genre
-    @genres = []
-  end
-end
